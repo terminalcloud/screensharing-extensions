@@ -17,7 +17,6 @@ function getSourceID(sender, callback) {
       callback({ error: 'permissionDenied' });
       return;
     }
-
     callback({ sourceId: sourceId });
   });
 }
